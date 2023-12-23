@@ -1,4 +1,4 @@
-name: Microjot CI
+name: National Grid DFS Bot CI
 on:
   push:
     branches: [ main ]
