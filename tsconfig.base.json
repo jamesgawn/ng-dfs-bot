@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"module": "esnext",
+		"target": "esnext",
+		"lib": ["esnext"],
+		"strict": true,
+    "declaration": true,
+    "sourceMap": true,
+		"moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "composite": true,
+    "types": ["@cloudflare/workers-types"]
+	},
+  "exclude": ["**/node_modules", "**/dist", "node_modules", "dist", "test"]
+}

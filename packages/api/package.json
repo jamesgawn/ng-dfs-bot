@@ -1,0 +1,21 @@
+{
+  "name": "@ng-dfs-bot/api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy src/index.ts",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@ng-dfs-bot/core": "^1.0.0",
+    "itty-router": "^4.0.25"
+  },
+  "description": "[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/templates/tree/main/worker-typescript)",
+  "main": "dist/index.js",
+	"types": "dist/index.d.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
