@@ -6,11 +6,11 @@
   "scripts": {
     "build": "tsc --build",
 
-    "dev-api": "npm run dev --workspace=packages/api",
-    "test-api": "npm run test --workspace=packages/api",
-    "deploy-api": "npm run deploy --workspace=packages/api",
+    "dev:api": "npm run dev --workspace=packages/api",
+    "test:api": "npm run test --workspace=packages/api",
+    "deploy:api": "npm run deploy --workspace=packages/api",
 
-    "test-core": "npm run test --workspace=packages/core"
+    "test:core": "npm run test --workspace=packages/core"
   },
   "keywords": [],
   "author": "James Gawn",
